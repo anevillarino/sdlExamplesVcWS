@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Emandakoak">
+      <UniqueIdentifier>{e0368235-37cc-4635-95f0-ef8f00044675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Emandakoak">
+      <UniqueIdentifier>{faa29af9-0a68-4a65-8910-c13acf977848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Gureak">
+      <UniqueIdentifier>{d723b26e-df66-4be1-acd7-7247544719ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Gureak\Menuan">
+      <UniqueIdentifier>{5dad3108-b8e8-49df-8558-8993695c6228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Gureak">
+      <UniqueIdentifier>{3bbd544b-c450-4a73-a2b9-6af7644f558e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Gureak\Kontinenteak">
+      <UniqueIdentifier>{940ad577-f810-4682-b950-53773764a226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Gureak\Orokorrak">
+      <UniqueIdentifier>{66e32a9e-0a70-4ba1-9448-d41d0d5f388c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Gureak\Menuan">
+      <UniqueIdentifier>{d4ec060f-3786-45b6-860f-783887ed9be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Gureak\Orokorrak">
+      <UniqueIdentifier>{79a76547-205a-45c4-8e10-29ce018615fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\ebentoak.c">
+      <Filter>Archivos de origen\Emandakoak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\graphics.c">
+      <Filter>Archivos de origen\Emandakoak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\imagen.c">
+      <Filter>Archivos de origen\Emandakoak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\soinua.c">
+      <Filter>Archivos de origen\Emandakoak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\text.c">
+      <Filter>Archivos de origen\Emandakoak</Filter>
+    </ClCompile>
+    <ClCompile Include="afrika.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="asia.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="europa.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="hegoamerika.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="ozeania.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="iparamerika.c">
+      <Filter>Archivos de origen\Gureak\Kontinenteak</Filter>
+    </ClCompile>
+    <ClCompile Include="gida.c">
+      <Filter>Archivos de origen\Gureak\Menuan</Filter>
+    </ClCompile>
+    <ClCompile Include="ezarpenak.c">
+      <Filter>Archivos de origen\Gureak\Menuan</Filter>
+    </ClCompile>
+    <ClCompile Include="kredituak.c">
+      <Filter>Archivos de origen\Gureak\Menuan</Filter>
+    </ClCompile>
+    <ClCompile Include="menua.c">
+      <Filter>Archivos de origen\Gureak\Menuan</Filter>
+    </ClCompile>
+    <ClCompile Include="jolastu.c">
+      <Filter>Archivos de origen\Gureak\Menuan</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogoak.c">
+      <Filter>Archivos de origen\Gureak\Orokorrak</Filter>
+    </ClCompile>
+    <ClCompile Include="irabazi.c">
+      <Filter>Archivos de origen\Gureak\Orokorrak</Filter>
+    </ClCompile>
+    <ClCompile Include="orokorrak.c">
+      <Filter>Archivos de origen\Gureak\Orokorrak</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OurTypes.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\ebentoak.h">
+      <Filter>Archivos de encabezado\Emandakoak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\graphics.h">
+      <Filter>Archivos de encabezado\Emandakoak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\imagen.h">
+      <Filter>Archivos de encabezado\Emandakoak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\soinua.h">
+      <Filter>Archivos de encabezado\Emandakoak</Filter>
+    </ClInclude>
+    <ClInclude Include="ezarpenak.h">
+      <Filter>Archivos de encabezado\Gureak\Menuan</Filter>
+    </ClInclude>
+    <ClInclude Include="gida.h">
+      <Filter>Archivos de encabezado\Gureak\Menuan</Filter>
+    </ClInclude>
+    <ClInclude Include="kredituak.h">
+      <Filter>Archivos de encabezado\Gureak\Menuan</Filter>
+    </ClInclude>
+    <ClInclude Include="menua.h">
+      <Filter>Archivos de encabezado\Gureak\Menuan</Filter>
+    </ClInclude>
+    <ClInclude Include="jolasa.h">
+      <Filter>Archivos de encabezado\Gureak\Menuan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\text.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogoak.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="irabazi.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="irudiak.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="musika.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="orokorrak.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+    <ClInclude Include="soinu_efektuak.h">
+      <Filter>Archivos de encabezado\Gureak\Orokorrak</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
